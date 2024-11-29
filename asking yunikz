@@ -1,0 +1,346 @@
+- 👋 Hi, I’m @yunikzzz
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<!---
+yunikzzz/yunikzzz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+
+--->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<style>
+    /* Overall body styling */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url('file:///C:/mnt/data/Screenshot%20(7).png') no-repeat center center fixed;
+        background-size: cover;
+        color: #333;
+        transition: all 0.3s ease;
+    }
+
+    /* Container to hold all elements */
+    .container {
+        max-width: 900px;
+        margin: 50px auto;
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius: 12px;
+        padding: 40px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    /* Title of the page */
+    h1 {
+        font-size: 36px;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    /* Yunikz Website Link at the top */
+    .yunikz-website {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    /* Social Media Links */
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .social-links a {
+        font-size: 20px;
+        color: #0077b5;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 20px;
+        transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+        color: #3498db;
+    }
+
+    .social-links img {
+        width: 40px;
+        height: 40px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+    /* Product Pricing */
+    .pricing {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .pricing .product {
+        background-color: #ecf0f1;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 200px;
+        transition: all 0.3s ease;
+    }
+
+    .pricing .product:hover {
+        background-color: #d5dbdb;
+        transform: translateY(-5px);
+    }
+
+    .pricing h2 {
+        color: #2980b9;
+        margin-bottom: 10px;
+    }
+
+    .pricing p {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    /* Highlight section for products */
+    .highlight {
+        font-size: 18px;
+        color: #e74c3c;
+        font-weight: bold;
+        background-color: #f2d7d5;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Helpful apps section */
+    .apps {
+        background-color: #ecf0f1;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    .apps h2 {
+        color: #2980b9;
+    }
+
+    .apps ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .apps li {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .apps a {
+        color: #2980b9;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .apps a:hover {
+        color: #3498db;
+    }
+
+    /* Top Tweaks section */
+    .top-tweaks {
+        background-color: #ecf0f1;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+
+    .top-tweaks h2 {
+        color: #2980b9;
+    }
+
+    .top-tweaks ol {
+        list-style: decimal;
+        padding: 0;
+    }
+
+    .top-tweaks li {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .top-tweaks .tweak {
+        font-weight: bold;
+    }
+
+    /*  & Final Section */
+    .motivation {
+        background-color: #f9e6e6;
+        color: #c0392b;
+        padding: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        font-size: 14px;
+        color: #7f8c8d;
+        text-align: center;
+    }
+
+    .footer a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* Comment Section */
+    .comment-section {
+        margin-top: 40px;
+        text-align: center;
+        background-color: #ecf0f1;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .comment-section h3 {
+        font-size: 24px;
+        color: #2c3e50;
+    }
+
+    .comment-section textarea {
+        width: 80%;
+        height: 150px;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    .comment-section button {
+        padding: 10px 20px;
+        background-color: #2980b9;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+    }
+
+    .comment-section button:hover {
+        background-color: #3498db;
+    }
+</style>
+<div class="container"><!-- Yunikz Website Link -->
+<div class="yunikz-website">Visit Yunikz Website for more updates and exclusive offers!</div>
+<!-- Social Media Links -->
+<div class="social-links"><a href="https://www.instagram.com/anjili_010/" target="_blank" rel="noopener"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> Instagram </a> <a href="https://www.tiktok.com/@sophia_snow.white" target="_blank" rel="noopener"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/TikTok_logo_2021.svg" alt="TikTok"> TikTok </a></div>
+<h1>Try Our Custom Packs for Better Headshot and FPS</h1>
+<p style="font-size: 20px; color: #2c3e50; text-align: center;">Boost your Free Fire experience with our exclusive products and FPS optimization tweaks!</p>
+<div class="highlight">
+<h2>About Our Regedit and Pack</h2>
+<p>Our Regedit Pack is designed to optimize your Free Fire experience by tweaking essential settings for improved performance, reduced lag, and faster gameplay. Combined with our **Custom Emulator**, you'll be able to unlock smoother FPS and better responsiveness, making headshots and aiming easier than ever! And also give you hacker-level gameplay.</p>
+<p><strong>Don&rsquo;t use hacks &ndash; use our safe, legal tools for optimal performance and headshots!</strong></p>
+</div>
+<div class="pricing"><!-- Product 1: Regedit Pack -->
+<div class="product">
+<h2>Regedit Pack</h2>
+<p>Optimized settings for better performance</p>
+<p>Price: 100 NPR</p>
+<p>Price in USD: 0.74 USD</p>
+<p>Price in INR: 62.98 INR</p>
+</div>
+<!-- Product 2: Custom Emulator -->
+<div class="product">
+<h2>Custom Emulator</h2>
+<p>FPS optimization and smooth gameplay</p>
+<p>Price: 250 NPR</p>
+<p>Price in USD: 1.85 USD</p>
+<p>Price in INR: 155.74 INR</p>
+</div>
+</div>
+<div class="top-tweaks">
+<h2>Top Tweaks by Yunikz</h2>
+<ol>
+<li><span class="tweak">Disable Hardware Acceleration</span> for smoother performance in graphics-heavy games.</li>
+<li><span class="tweak">Activate Ultimate Performance Mode</span> using tools like ParkControl for optimized FPS.</li>
+<li><span class="tweak">Regedit Pack</span> for Free Fire: Customize your system to ensure smooth gameplay and a headshot-friendly setup and also you can use this tweaks -590325054 for hacker level headshot</li>
+</ol>
+</div>
+<div class="apps">
+<h2>Helpful Apps</h2>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/p/parkcontrol/9nblggh42thsj" target="_blank" rel="noopener">ParkControl (FPS Optimization)</a></li>
+<li><a href="https://www.fraps.com/" target="_blank" rel="noopener">FRAPS (Game FPS Tracking)</a></li>
+<li><a href="https://bluestacks.com/" target="_blank" rel="noopener">Bluestacks (Emulator for Mobile Gaming)</a></li>
+<li><a href="https://www.nvidia.com/en-us/geforce/technologies/rtx/" target="_blank" rel="noopener">NVIDIA GeForce RTX (GPU Optimization)</a></li>
+<li><a href="https://www.msi.com/page/afterburner" target="_blank" rel="noopener">MSI Afterburner (Hardware Monitoring)</a></li>
+</ul>
+</div>
+<div class="motivation">
+<h2>Optimizing your gaming experience...</h2>
+<p>Remember, even the smallest adjustments can result in major performance improvements in gaming!</p><!-- SNESI YUNIKZ PACK Section -->
+            <div class="section-title">SNESI YUNIKZ PACK is here</div>
+            <a href="https://file.io/OBrEdzYHrlaq" target="_blank" rel="noopener" class="download-button">Download SNESI YUNIKZ Pack</a>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+<p>For more tips and support, visit OUR website or follow us on social media. Happy gaming!</p>
+<p>Copyright &copy; Yunikz | <a href="https://www.instagram.com/anjili_010/" target="_blank" rel="noopener">Instagram</a> | <a href="https://www.tiktok.com/@sophia_snow.white" target="_blank" rel="noopener">TikTok</a></p>
+<p>By creating UI: Some APK and Emulator Link. Hope you enjoy: <a href="https://direct-link.net/1098295/e4vx-4250" target="_blank" rel="noopener">Download Link</a> | Password: Mr Bluestacks 6K?</p>
+</div>
+<div class="comment-section">
+<h3>Leave Your Comments</h3>
+<textarea rows="5" placeholder="Your comment..."></textarea> <button>Submit</button></div>
+</div>
+<!-- By creating UI: Some APK and Emulator Link -->
+<div class="apps">
+<h2>Some APK and Emulator Links note/i dont own this link</h2>
+<ul>
+<li><a href="https://direct-link.net/1098295/e4vx-4250" target="_blank" rel="noopener">e4vx-4250 Emulator Download</a></li>
+<li><a href="https://direct-link.net/1098295/e4vx-4240301002" target="_blank" rel="noopener">e4vx-4240301002 Emulator Download</a></li>
+<li><a href="https://link-center.net/1098295/e4vx-4240201016" target="_blank" rel="noopener">e4vx-4240201016 Emulator Download</a></li>
+<li><a href="https://direct-link.net/1098295/e4vx-4280110027z" target="_blank" rel="noopener">e4vx-4280110027z Emulator Download</a></li>
+<li><a href="https://link-target.net/1098295/msi-e4vx-4240156305" target="_blank" rel="noopener">msi-e4vx-4240156305 Emulator Download</a></li>
+<li><a href="https://link-hub.net/1098295/color-changer-proapk" target="_blank" rel="noopener">Color Changer Pro APK Download</a></li>
+<li><a href="https://link-target.net/1098295/mouse-acceleration-fix" target="_blank" rel="noopener">Mouse Acceleration Fix Download</a></li>
+<li><a href="https://link-target.net/1098295/free-fire-huawei-ob42apk" target="_blank" rel="noopener">Free Fire Huawei Version APK Download</a></li>
+<li><a href="https://link-target.net/1098295/free-fire-global-version" target="_blank" rel="noopener">Free Fire Global Version APK Download</a></li>
+<li><a href="https://link-hub.net/1098295/free-fire-amazon" target="_blank" rel="noopener">Free Fire Amazon Version APK Download</a></li>
+<li><a href="https://link-target.net/1098295/aurora-storeapk" target="_blank" rel="noopener">Aurora Store APK Download</a></li>
+</ul>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
